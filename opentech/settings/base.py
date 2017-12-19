@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'opentech.search',
     'opentech.utils',
 
+    'wagtail.contrib.modeladmin',
     'wagtail.contrib.postgres_search',
     'wagtail.contrib.settings',
     'wagtail.contrib.wagtailsearchpromotions',
