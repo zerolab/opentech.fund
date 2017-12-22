@@ -14,7 +14,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 AUTH_PASSWORD_VALIDATORS = []
 
-ALLOWED_HOSTS= ['apply.localhost', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['apply.localhost', 'localhost', '127.0.0.1']
 
 try:
     from .local import *  # noqa
